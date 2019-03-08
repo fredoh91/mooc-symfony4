@@ -1,8 +1,5 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
-# config/routes.yaml
+# config/route.yaml
 
 hello_the_world:
-    path:       /hello-world
+    path : /hello-world
     controller: App\Controller\AdvertController::index
