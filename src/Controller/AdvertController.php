@@ -14,6 +14,48 @@ use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
  */
 class AdvertController extends AbstractController
 {
+// pour la suite //
+//  /**
+// * @Route("/{page}", name="oc_advert_index", requirements={"page" = "\d+"}, defaults={"page" = 1})
+// */
+//public function index() {
+//}
+//
+///**
+// * @Route("/view/{id}", name="oc_advert_view", requirements={"id" = "\d+"})
+// */
+//
+//public function view($id)
+//{
+//    
+//}
+//
+///**
+// * @Route("/add", name="oc_advert_add")
+// */        
+//public function add()
+//{
+//
+//}
+//
+///**
+// * @Route("/edit/{id}", name="oc_advert_edit", requirements={"id" = "\d+"})
+// */
+//
+//public function edit($id)
+//{
+//
+//}
+//
+///**
+// * @Route("/delete/{id}", name="oc_advert_delete", requirements={"id" = "\d+"})
+// */
+//
+//public function delete($id)
+//{
+//
+//}
+
 //  public function index()
 //  {
 //    $content = "Notre propre Hello World !";
@@ -67,7 +109,7 @@ class AdvertController extends AbstractController
   {
     // $id vaut 5 si l'URL appelée est /advert/view/5
 //      var_dump($id);
-     $content = $twig->render('Advert/oc_view.html.twig', ['advertId' => $id]);
+    $content = $twig->render('Advert/oc_view.html.twig', ['advertId' => $id]);
     return new Response($content);
   }
   
