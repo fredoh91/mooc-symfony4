@@ -1,0 +1,16 @@
+{# templates/Advert/byebye-world.html.twig #}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A plus !!</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+{# Dans une vue Twig, en considérant bien sûr que la variable advertId est disponible #}
+{# <a href="{{ path('oc_advert_view', { 'id': advertId }) }}"> #}
+<a href="{{ url('oc_advert_view', { 'id': advertId }) }}">
+    Lien vers l'annonce d'id {{ advertId }}
+</a>
+</body>
+</html>

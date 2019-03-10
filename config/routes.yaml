@@ -1,5 +1,27 @@
-# config/route.yaml
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+# config/routes.yaml
 
-hello_the_world:
-    path : /hello-world
-    controller: App\Controller\AdvertController::index
+#hello_the_world:
+#    path:       /hello-world
+#    controller: App\Controller\AdvertController::index
+#    
+byebye_world:
+    path:       /byebye-world
+    controller: App\Controller\AdvertController::byebye_world
+
+# config/routes.yaml
+
+#oc_advert_index:
+#    path:       /advert
+#    controller: App\Controller\AdvertController::index
+
+#oc_advert_view:
+#    path:       /advert/view/{id}
+#    controller: App\Controller\AdvertController::view
+
+oc_advert_add:
+    path:       /advert/add
+    controller: App\Controller\AdvertController::add
+    
